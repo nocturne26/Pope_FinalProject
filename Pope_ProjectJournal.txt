@@ -1,0 +1,9 @@
+Chris Pope
+CIS171
+Fall 2026
+
+11/16/2026
+
+Goals for the next week:
+1. Finish planning how Veilbreak will use text files and ArrayLists.
+2. Decide how inheritance/polymorphism will fit into the final project.
