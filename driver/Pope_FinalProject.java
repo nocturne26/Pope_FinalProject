@@ -5,7 +5,7 @@ package driver;
  * Date: 9/30/2026
  * Operating System: Linux Debian
  * IDE: VS Code
- * Program Description(short): Midterm Project
+ * Program Description(short): Final Project - Veilbreak 
  *
  * Academic Honesty: I attest that this is my original work.
  * I have not used unauthorized source code, either modified or unmodified.
