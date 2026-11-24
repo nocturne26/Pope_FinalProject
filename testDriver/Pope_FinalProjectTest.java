@@ -15,20 +15,20 @@
 
 package testDriver;
 
-import driver.MidtermPope;
+import driver.Pope_FinalProject;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class MidtermPopeTest {
+public class Pope_FinalProjectTest {
 
 
 @Test 
 public void testFormatInvestigatorNameLowerCase() {
-    String result = MidtermPope.formatInvestigatorName("chris");
-    String result2 = MidtermPope.formatInvestigatorName("CHRIS");
-    String result3 = MidtermPope.formatInvestigatorName("    chRis     ");
-    String result4 = MidtermPope.formatInvestigatorName("chrIS pope");
+    String result = Pope_FinalProject.formatInvestigatorName("chris");
+    String result2 = Pope_FinalProject.formatInvestigatorName("CHRIS");
+    String result3 = Pope_FinalProject.formatInvestigatorName("    chRis     ");
+    String result4 = Pope_FinalProject.formatInvestigatorName("chrIS pope");
 
     assertEquals("Chris", result);
     assertEquals("Chris", result2);
@@ -38,10 +38,10 @@ public void testFormatInvestigatorNameLowerCase() {
 
 @Test
 public void testGenerateEvent() {
-    int result = MidtermPope.generateEvent(5);  
-    int result2 = MidtermPope.generateEvent(10);    
-    int result3 = MidtermPope.generateEvent(15);    
-    int result4 = MidtermPope.generateEvent(20);    
+    int result = Pope_FinalProject.generateEvent(5);  
+    int result2 = Pope_FinalProject.generateEvent(10);    
+    int result3 = Pope_FinalProject.generateEvent(15);    
+    int result4 = Pope_FinalProject.generateEvent(20);    
     
     assertTrue(result >= 0 && result < 5);
     assertTrue(result2 >= 0 && result2 < 10);

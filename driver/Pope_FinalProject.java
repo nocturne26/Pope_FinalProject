@@ -26,7 +26,7 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.ArrayList;
 
-public class MidtermPope {
+public class Pope_FinalProject {
 
         /**
          * Displays the game instructions and explains the basic objective
